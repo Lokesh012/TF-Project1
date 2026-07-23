@@ -95,3 +95,24 @@ bastion = {
 
     }
 }
+
+
+nsgs = {
+    nsg1 ={
+        name = "frontend-nsg"
+        location = "Central India"
+        resource_group_name = "cineverers-rg"
+        virtual_network_name = "cineverse-vnet"
+        data_frontend_sub_name = "frontend-snet"
+        data_backend_sub_name = "backend-snet"   
+    }
+
+    nsg2 ={
+        name = "backend-nsg"
+        location = "Central India"
+        resource_group_name = "cineverers-rg"
+        virtual_network_name = "cineverse-vnet"
+        data_frontend_sub_name = "frontend-snet"
+        data_backend_sub_name = "backend-snet"
+    }
+}
